@@ -1,0 +1,106 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "OfferTop"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "OfferTop"
+			}
+		},
+		{
+			"path": "pages/recommend/recommend",
+			"style": {
+				"navigationBarTitleText": "OfferTop"
+			}
+		},
+		{
+			"path": "pages/personal/personal",
+			"style": {
+				"navigationBarTitleText": "OfferTop"
+			}
+		},
+		{
+			"path": "pages/personal/myHeart",
+			"style": {
+				"navigationBarTitleText": "OfferTop"
+			}
+		},
+		{
+			"path": "pages/personal/myHistory",
+			"style": {
+				"navigationBarTitleText": "OfferTop"
+			}
+		},
+		{
+			"path": "pages/personal/myStar",
+			"style": {
+				"navigationBarTitleText": "OfferTop"
+			}
+		},
+		{
+			"path": "pages/articlelist/articlelist",
+			"style": {
+				"navigationBarTitleText": "OfferTop"
+			}
+		},
+		{
+			"path": "pages/inpersonData/inpersonData",
+			"style": {
+				"navigationBarTitleText": "OfferTop"
+			}
+		},
+		{
+			"path": "pages/inpersonData/changeName",
+			"style": {
+				"navigationBarTitleText": "OfferTop"
+			}
+		},
+		{
+			"path": "pages/upload/upload",
+			"style": {
+				"navigationBarTitleText": "OfferTop"
+			}
+		},
+		{
+			"path": "pages/articleDetail/articleDetail",
+			"style": {
+				"navigationBarTitleText": "OfferTop"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color":"#959595",
+		"selectedColor":"#4887f7",
+		"list": [
+			{
+				"text":"首页",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/首页.png",
+				"selectedIconPath":"static/首页-selected.png"
+			},
+			{
+				"text":"每日推荐",
+				"pagePath":"pages/recommend/recommend",
+				"iconPath":"static/推荐.png",
+				"selectedIconPath":"static/推荐-selected.png"
+			},
+			{
+				"text":"我的",
+				"pagePath":"pages/personal/personal",
+				"iconPath":"static/我的.png",
+				"selectedIconPath":"static/我的-selected.png"
+			}
+		]
+	}
+}
